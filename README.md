@@ -1,4 +1,4 @@
-# [CEP146NBB] Project title
+# [CEP146NBB] Encryption: Use cases.
 
 ## Team Members
 - Adrian Stanciu, Seneca Student ID:
