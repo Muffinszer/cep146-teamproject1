@@ -1,7 +1,7 @@
 # [CEP146NBB] Encryption: Use cases.
 
 ## Team Members
-- Adrian Stanciu, Seneca Student ID:
+- Adrian Stanciu, Seneca Student ID: 111272266
 - Ignacio Morales Hermosilla, Seneca Student ID: 122079262
 - Muffin Aybar, Seneca Student ID: 107362253
 - Summer Chang, Seneca Student ID: 148482243
