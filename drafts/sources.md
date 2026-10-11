@@ -13,4 +13,7 @@
 - [DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process)
 
 
+- [RSA](https://www.rsa.com/resources/blog/zero-trust/setting-the-record-straight-on-quantum-computing-and-rsa-encryption/)
 
+
+- [RSA Community](https://community.rsa.com/s/article/RSA-cryptography-and-NIST-guidance)
