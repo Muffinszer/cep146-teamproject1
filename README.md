@@ -7,14 +7,12 @@
 - Summer Chang, Seneca Student ID: 148482243
 
 ## Topic summary
-
-The topic, encryption and its usecases, is a fundamental part of our life whether we see it or not, providing I.T. staff with a easy and intuitive way to manage computers from an external server cluster accross the world to a client who doesn't know his PC eventually will need to restart, through a renowned open source project caled openssh. A project that is on nearly every computer even if you never intentionally installed it. And it's through this project that we see the real use case for RSA key generation, encryption that is mathematically impossible to crack.
-<!--- This is a example summary, i understand that this is most likely an improper summary. I expect this comment be deleted. --->
+Encryption is a fundamental part of everyday digital life, often operating invisibly to secure communications and remote management. OpenSSH, a widely deployed open-source project preinstalled on most systems, enables IT staff to manage computers globally while remaining transparent to end users. RSA key generation within OpenSSH provides mathematically robust encryption that is practically impossible to crack, illustrating a real-world application of cryptographic security.
 
 ## Link to the YouTube video. (Make it PUBLIC)
 
 ## Brief description of each member's contribution
-- Adrian Stanciu: Script, PowerPoint presentation
+- Adrian Stanciu: Background research, Script, PowerPoint presentation
 - Ignacio Morales Hermosilla: Background research, PowerPoint presentation
 - Muffin Aybar: Background research, Script
-- Summer Chang: Presentation voice-over, Video production
+- Summer Chang: Team leader, Presentation voice-over, Video production
