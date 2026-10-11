@@ -5,7 +5,7 @@
 This presentation will focus on how RSA works, how they're made, and how they
 are used!
 
-## How does RSA encryption even work?
+## How does RSA encryption theoretically works?
 
 RSA encryption is a type of asymmetric encryption algorithim, generating a key
 pair to encrypt and decrypt data. For this presentation we will be focusing on
@@ -25,7 +25,7 @@ UNIX systems this can be achieved by converting the infinitely generating output
 of /dev/urandom into hexidecimal, how big of a number you want is directly tied
 to how many bits are recieved from urandom. The typical length is 2048 bits.
 
-### Private key
+### Public key
 
 Since RSA works by encrypting and decryping via a linked private & public key,
 we will generate it using "Euler's Totient Function" (TAKE OUT THIS IF
@@ -34,12 +34,23 @@ prime minus 1 <--- Then a public exponent e is selected, generally this exponent
 is 65537, and coprime with phi n. Now we can make a public key using e and n
 (e,n)
 
-### Public key
+### Private key
 
 Lastly we can generate our private exponent, "d", which is the modular inverse
 of e. Thus the private key is d and n (d,n)
 
-## Topic 2. How it's most commonly used (SSH)
+## Topic 2. How does it practically work in the real world?
+
+The real world isn't perfect, and in this case an attacker can simply intercept 
+client's or server's public key and send or read data without being part of
+the connection.
+
+For this purpose, engineers have come up with certificates. They are digitally signed
+by a trusted Certificate Authority, allowing the client to verify that the public key
+actually belongs to the server. It is a binding of the public key to a domain,
+could be a website, an SSH connection, you name it.
+
+## Topic 3. How it's most commonly used (SSH)
 
 Asymmetric encryption algorithims, like RSA, can be used anytime a client wants
 to send out and recieve data securely, if you're ever worried about being on a
@@ -54,6 +65,18 @@ virtual terminal on whatever server you choose to connect to as the user you
 decided to connect as. General end-to-end encryption on any platform, such as
 whatsapp, imessage, and mostly importantly HTTPS, which is the bases of the
 entire modern internet.
+
+## Topic 4. The future of RSA encryption
+
+RSA Encryption is still widely used across the internet, especially in TLS/SSL and sometimes SSH
+certificates. They offer a secure connection between the client and the server. Today, it is still
+considered secure, although, the National Institute of Standards and Technology is preparing to 
+deprecate RSA encryption by 2030 as quantum computing continues to develop.
+
+The main concern is that eventually, quantum computers will be able to crack RSA's 
+encryption algorithm like it's nothing. Companies are already transitioning towards post 
+quantum cryptography so the internet still remains secure before bad actors can
+profit from it.
 
 ## Closeoff, wrap it up
 
