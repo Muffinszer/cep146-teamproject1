@@ -28,3 +28,11 @@
   2. Exchange public keys
   3. Data encrypted using other's public key
   4. Data decrypted using own private key
+
+## Topic 1. RSA key generation
+
+**Slide 4:**
+- Title: RSA Key Generation
+- Content:
+  1. Generate two Prime Numbers
+     1. 
