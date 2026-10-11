@@ -5,7 +5,7 @@
 This presentation will focus on how RSA works, how they're made, and how they
 are used!
 
-## How does RSA encryption even work?
+## How does RSA encryption theoretically works?
 
 RSA encryption is a type of asymmetric encryption algorithim, generating a key
 pair to encrypt and decrypt data. For this presentation we will be focusing on
@@ -39,7 +39,18 @@ is 65537, and coprime with phi n. Now we can make a public key using e and n
 Lastly we can generate our private exponent, "d", which is the modular inverse
 of e. Thus the private key is d and n (d,n)
 
-## Topic 2. How it's most commonly used (SSH)
+## Topic 2. How does it practically work in the real world?
+
+The real world isn't perfect, and in this case an attacker can simply intercept 
+client's or server's public key and send or read data without being part of
+the connection.
+
+For this purpose, engineers have come up with certificates. They are digitally signed
+by a trusted Certificate Authority, allowing the client to verify that the public key
+actually belongs to the server. It is a binding of the public key to a domain,
+could be a website, an SSH connection, you name it.
+
+## Topic 3. How it's most commonly used (SSH)
 
 Asymmetric encryption algorithims, like RSA, can be used anytime a client wants
 to send out and recieve data securely, if you're ever worried about being on a
@@ -55,7 +66,7 @@ decided to connect as. General end-to-end encryption on any platform, such as
 whatsapp, imessage, and mostly importantly HTTPS, which is the bases of the
 entire modern internet.
 
-## Topic 3. The future of RSA encryption
+## Topic 4. The future of RSA encryption
 
 RSA Encryption is still widely used across the internet, especially in TLS/SSL and sometimes SSH
 certificates. They offer a secure connection between the client and the server. Today, it is still
