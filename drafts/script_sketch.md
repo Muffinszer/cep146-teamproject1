@@ -25,7 +25,7 @@ UNIX systems this can be achieved by converting the infinitely generating output
 of /dev/urandom into hexidecimal, how big of a number you want is directly tied
 to how many bits are recieved from urandom. The typical length is 2048 bits.
 
-### Private key
+### Public key
 
 Since RSA works by encrypting and decryping via a linked private & public key,
 we will generate it using "Euler's Totient Function" (TAKE OUT THIS IF
@@ -34,7 +34,7 @@ prime minus 1 <--- Then a public exponent e is selected, generally this exponent
 is 65537, and coprime with phi n. Now we can make a public key using e and n
 (e,n)
 
-### Public key
+### Private key
 
 Lastly we can generate our private exponent, "d", which is the modular inverse
 of e. Thus the private key is d and n (d,n)
