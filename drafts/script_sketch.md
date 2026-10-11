@@ -55,6 +55,18 @@ decided to connect as. General end-to-end encryption on any platform, such as
 whatsapp, imessage, and mostly importantly HTTPS, which is the bases of the
 entire modern internet.
 
+## Topic 3. The future of RSA encryption
+
+RSA Encryption is still widely used across the internet, especially in TLS/SSL and sometimes SSH
+certificates. They offer a secure connection between the client and the server. Today, it is still
+considered secure, although, the National Institute of Standards and Technology is preparing to 
+deprecate RSA encryption by 2030 as quantum computing continues to develop.
+
+The main concern is that eventually, quantum computers will be able to crack RSA's 
+encryption algorithm like it's nothing. Companies are already transitioning towards post 
+quantum cryptography so the internet still remains secure before bad actors can
+profit from it.
+
 ## Closeoff, wrap it up
 
 This was a quick runthrough on how encryption algorithims work and their
