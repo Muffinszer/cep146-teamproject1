@@ -34,5 +34,13 @@
 **Slide 4:**
 - Title: RSA Key Generation
 - Content:
-  1. Generate two Prime Numbers
-     1. 
+  1. Generate two large prime numbers p & q
+  2. Generate public key
+     1. Public exponent e, commonly 65537
+     2. e must coprime with phi n
+     3. Public key = (e, n)
+  3. Generate private key
+     1. Calculate d as the modular inverse of e
+     2. Private key = (d, n)
+- Images:
+  1. Calculations, to find
