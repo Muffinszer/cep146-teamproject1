@@ -44,3 +44,15 @@
      2. Private key = (d, n)
 - Images:
   1. Calculations, to find
+
+## Topic 2. How does it practically work in the real world?
+
+**Slide 5:**
+- Title: How RSA works in the world
+- Sub title: Man in the Middle Attack
+- Content:
+  1. Problem - Attacker substitutes public key
+  2. Solutions - Certificates binds Public Key to Domain
+  3. Verification: Trusted CA signs certificate, client verifies signature
+ - Image:
+   1. MITM attack img
