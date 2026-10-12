@@ -42,13 +42,14 @@ of e. Thus the private key is d and n (d,n)
 ## Topic 2. How does it practically work in the real world?
 
 The real world isn't perfect, and in this case an attacker can simply intercept 
-client's or server's public key and send or read data without being part of
-the connection.
+the connection and simply create their own public key. Client will think they are
+connected to the legitimate server, but instead they are connected to the man in the
+middle, hence the name, Man In The Middle attack.
 
 For this purpose, engineers have come up with certificates. They are digitally signed
 by a trusted Certificate Authority, allowing the client to verify that the public key
-actually belongs to the server. It is a binding of the public key to a domain,
-could be a website, an SSH connection, you name it.
+actually belongs to the server. It is a binding of the public key to a domain, such
+could be a website or a backend server.
 
 ## Topic 3. How it's most commonly used (SSH)
 
