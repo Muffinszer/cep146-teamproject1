@@ -56,3 +56,21 @@
   3. Verification: Trusted CA signs certificate, client verifies signature
  - Image:
    1. MITM attack img
+
+## Topic 3. How it's most commonly used (SSH)
+
+**Slide 6.**
+- Title: How RSA works in the world
+- Sub title: Real world usage
+- Content:
+  1. Safe in public networks
+  2. SSH:
+     1. Secure remote terminal access
+     2. Public end to end key cryptography
+     3. Asymmetric keys are used for the connection
+  3. HTTPS
+     1. Authenticates websites using certificates
+     2. Established a secure session
+- Image:
+  1. To do
+ 
