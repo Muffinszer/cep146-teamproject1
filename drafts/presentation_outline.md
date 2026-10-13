@@ -59,7 +59,7 @@
 
 ## Topic 3. How it's most commonly used (SSH)
 
-**Slide 6.**
+**Slide 6:**
 - Title: How RSA works in the world
 - Sub title: Real world usage
 - Content:
@@ -73,4 +73,19 @@
      2. Established a secure session
 - Image:
   1. To do
- 
+
+ ## Topic 4. The future of RSA encryption
+
+> Need to add more info, maybe edit the topic a bit?
+
+ **Slide 7:**
+ - Title: Future of RSA
+ - Content:
+   1. RSA Today:
+      1. Still secure
+   2. The Threat:
+      1. Quantum computers
+   3. The Future:
+      1. Post-Quantum Cryptography
+   4. NIST (National Institute of Standards and Technology) timeline:
+      1. Deprecation by 2030
