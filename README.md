@@ -15,4 +15,4 @@ Encryption is a fundamental part of everyday digital life, often operating invis
 - Adrian Stanciu: Background research, Script, PowerPoint presentation
 - Ignacio Morales Hermosilla: Background research, PowerPoint presentation
 - Muffin Aybar: Background research, Script
-- Summer Chang: Team leader, Presentation voice-over, Video production
+- Summer Chang: Team leader, Script, PowerPoint presentation, Presentation voice-over, Video production
