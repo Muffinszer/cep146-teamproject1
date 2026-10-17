@@ -1,4 +1,4 @@
-# [CEP146NBB] Encryption: Use cases
+# [CEP146NBB] RSA Encryption: How It Works, Real-World Applications, and Future Challenges
 
 ## Team Members
 - Adrian Stanciu, Seneca Student ID: 111272266
