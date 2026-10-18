@@ -1,4 +1,4 @@
-# [CEP146NBB] Encryption: Use cases
+# [CEP146NBB] RSA Encryption: How It Works, Real-World Applications, and Future Challenges
 
 ## Team Members
 - Adrian Stanciu, Seneca Student ID: 111272266
@@ -7,7 +7,7 @@
 - Summer Chang, Seneca Student ID: 148482243
 
 ## Topic summary
-Encryption is a fundamental part of everyday digital life, often operating invisibly to secure communications and remote management. OpenSSH, a widely deployed open-source project preinstalled on most systems, enables IT staff to manage computers globally while remaining transparent to end users. RSA key generation within OpenSSH provides mathematically robust encryption that is practically impossible to crack, illustrating a real-world application of cryptographic security.
+This presentation explores the fundamental principles of RSA encryption, including asymmetric cryptography and public and private key generation. It explains how RSA is used in real-world applications such as SSH and HTTPS, and how digital certificates help prevent Man-in-the-Middle attacks. Finally, it examines the future of RSA encryption, focusing on the potential threats posed by quantum computing and the transition toward post-quantum cryptography.
 
 ## Link to the YouTube video. (Make it PUBLIC)
 
