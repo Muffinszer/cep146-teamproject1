@@ -38,11 +38,11 @@ Lastly, we calculate the private exponent, *d*, as the modular inverse of *e*, g
 
 In practice, encryption alone cannot guarantee that a public key belongs to the intended recipient.
 
-An attacker could replace that key with their own and intercept communications. This is known as a Man-in-the-Middle, or MITM, attack.
+An attacker could replace that key with their own and intercept communications. This is known as a Man-in-the-Middle attack.
 
 To prevent these attacks, websites use digital certificates signed by trusted Certificate Authorities.
 
-These certificates allow clients to verify that the public key actually belongs to the intended server, helping prevent Man-in-the-Middle attacks.
+These certificates allow clients to verify that the public key actually belongs to the intended server.
 
 ## Slide 6 — Real World Usage
 
@@ -58,15 +58,13 @@ RSA remains widely used today, but quantum computing presents a potential future
 
 Powerful quantum computers could eventually break RSA by efficiently factoring large numbers.
 
-As a result, the National Institute of Standards and Technology, or NIST, is guiding a transition toward post-quantum cryptography, with major milestones in 2030 and 2035.
+As a result, the National Institute of Standards and Technology is guiding a transition toward post-quantum cryptography, with major milestones in 2030 and 2035.
 
 ## Slide 8 — Closing Off
 
 In conclusion, RSA demonstrates how public-key cryptography helps protect digital communications.
 
 Without secure cryptographic systems, sensitive information would be much more vulnerable to interception.
-
-Thank you for your time.
 
 ## Slide 9 — Bibliography
 No narration required.
