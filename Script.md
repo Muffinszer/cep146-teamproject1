@@ -22,17 +22,11 @@ Now that we understand the basic concept of RSA encryption, let's take a closer 
 
 ## Slide 4 — RSA Key Generation
 
-To generate RSA keys, we first select two very large, random prime numbers. Secure random data can be obtained from sources such as `/dev/urandom` on Unix systems.
+To generate RSA keys, we start by selecting two very large, random prime numbers and multiplying them together to get a number called *n*. 
 
-These primes are multiplied together to produce a number called *n*. A typical RSA key size is 2048 bits.
+Next, we calculate Euler's totient function, or phi of n, by subtracting one from each prime number and multiplying the results. We then choose a public exponent, *e*, that is coprime with phi of n. Together, *e* and *n* form our public key. 
 
-Next, we calculate Euler's totient function, phi of n, by multiplying each prime minus one.
-
-We then select a public exponent, *e*, usually 65537, which must be coprime with phi of n.
-
-The public key consists of *e* and *n*.
-
-Lastly, we calculate the private exponent, *d*, as the modular inverse of *e*, giving us the private key, *d* and *n*.
+Finally, we calculate the private exponent, *d*, by finding the modular inverse of *e*. This gives us our private key, consisting of *d* and *n*.
 
 ## Slide 5 — Practicality in the Real World
 
@@ -40,9 +34,7 @@ In practice, encryption alone cannot guarantee that a public key belongs to the 
 
 An attacker could replace that key with their own and intercept communications. This is known as a Man-in-the-Middle attack.
 
-To prevent these attacks, websites use digital certificates signed by trusted Certificate Authorities.
-
-These certificates allow clients to verify that the public key actually belongs to the intended server.
+To prevent these attacks, websites use digital certificates signed by trusted Certificate Authorities, which allow clients to verify that the public key belongs to the intended server.
 
 ## Slide 6 — Real World Usage
 
@@ -50,7 +42,7 @@ RSA is commonly used for authentication and digital signatures in secure communi
 
 For example, SSH allows users to securely connect to remote servers and can use RSA keys for authentication.
 
-HTTPS also uses certificates and cryptographic algorithms to authenticate websites and establish secure connections, protecting information transmitted over public networks.
+HTTPS also uses certificates and cryptographic algorithms to authenticate websites and establish secure connections, protecting information transmitted over public networks
 
 ## Slide 7 — The Future
 
