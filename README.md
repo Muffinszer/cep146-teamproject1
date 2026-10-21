@@ -9,7 +9,7 @@
 ## Topic summary
 This presentation explores the fundamental principles of RSA encryption, including asymmetric cryptography and public and private key generation. It explains how RSA is used in real-world applications such as SSH and HTTPS, and how digital certificates help prevent Man-in-the-Middle attacks. Finally, it examines the future of RSA encryption, focusing on the potential threats posed by quantum computing and the transition toward post-quantum cryptography.
 
-## Link to the YouTube video. (Make it PUBLIC)
+## https://youtu.be/6OhdfhNb46c
 
 ## Brief description of each member's contribution
 - Adrian Stanciu: Background research, Script, PowerPoint presentation
