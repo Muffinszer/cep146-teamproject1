@@ -11,7 +11,7 @@ This presentation explores the fundamental principles of RSA encryption, includi
 
 ## https://youtu.be/6OhdfhNb46c
 
-## Brief description of each member's contribution
+## Member contributions
 - Adrian Stanciu: Background research, Script, PowerPoint presentation
 - Ignacio Morales Hermosilla: Background research, PowerPoint presentation
 - Muffin Aybar: Background research, Script
