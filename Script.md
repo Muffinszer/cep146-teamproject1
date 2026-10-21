@@ -22,7 +22,7 @@ Now that we understand the basic concept of RSA encryption, let's take a closer 
 
 ## Slide 4 — RSA Key Generation
 
-To generate RSA keys, we start by selecting two very large, random prime numbers and multiplying them together to get a number called *n*. 
+To generate RSA keys, we select two very large, random prime numbers and multiply them together to get a number called *n*. 
 
 Next, we calculate Euler's totient function, or phi of n, by subtracting one from each prime number and multiplying the results. We then choose a public exponent, *e*, that is coprime with phi of n. Together, *e* and *n* form our public key. 
 
@@ -34,7 +34,7 @@ In practice, encryption alone cannot guarantee that a public key belongs to the 
 
 An attacker could replace that key with their own and intercept communications. This is known as a Man-in-the-Middle attack.
 
-To prevent these attacks, websites use digital certificates signed by trusted Certificate Authorities, which allow clients to verify that the public key belongs to the intended server.
+To prevent these attacks, websites use digital certificates signed by trusted Authorities, which allow clients to verify that the public key belongs to the intended server.
 
 ## Slide 6 — Real World Usage
 
@@ -57,6 +57,8 @@ As a result, the National Institute of Standards and Technology is guiding a tra
 In conclusion, RSA demonstrates how public-key cryptography helps protect digital communications.
 
 Without secure cryptographic systems, sensitive information would be much more vulnerable to interception.
+
+Thank you for listening to our presentation.
 
 ## Slide 9 — Bibliography
 No narration required.
